@@ -1,0 +1,44 @@
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #6C757D;
+}
+  
+.profile .ganti-foto {
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  background-color: #E9ECEF;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+  
+.profile .ganti-foto .ganti {
+  line-height: 40px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+  
+.profile .ganti-foto:hover {
+  background-color: #dedfe0;
+  cursor: pointer;
+}
+
+.input-password {
+  width: 100%;
+  display: flex;
+}
+
+.input-password i {
+  position: absolute;
+  margin-top: 8px;
+  margin-left: -50px;
+  padding: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: all .3s ease;
+}
